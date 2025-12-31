@@ -11,7 +11,7 @@ const ButtonsContainer = () => {
   return (
     <div className={styles.buttonsContainer}>
       {buttonNames.map((buttonName, index) => (
-        <button  style={{color:"red"}} key={index} className={styles.button}>
+        <button  style={{color:"yellow", backgroundColor:"red"}} key={index} className={styles.button}>
           {buttonName}
         </button>
       ))}
